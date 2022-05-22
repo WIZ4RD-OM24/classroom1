@@ -1,0 +1,107 @@
+CRITICAL - 2022-05-31 00:34:32 --> Invalid file: timetable/manage_timetable.php
+#0 C:\xampp\htdocs\classroom\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('timetable/manag...')
+#1 C:\xampp\htdocs\classroom\system\Common.php(1089): CodeIgniter\View\View->render('timetable/manag...', Array, true)
+#2 C:\xampp\htdocs\classroom\app\Controllers\TimeTableController.php(16): view('timetable/manag...', Array)
+#3 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\TimeTableController->index()
+#4 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TimeTableController))
+#5 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-31 01:06:14 --> Unknown column 'teacher_id' in 'where clause'
+ERROR - 2022-05-31 01:06:59 --> Unknown column 'teacher_id' in 'where clause'
+CRITICAL - 2022-05-31 01:34:15 --> There is no data to update.
+#0 C:\xampp\htdocs\classroom\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\classroom\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\classroom\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\classroom\app\Controllers\SubjectController.php(38): CodeIgniter\Model->update('class_id', NULL)
+#4 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\SubjectController->add_subject()
+#5 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubjectController))
+#6 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 01:35:10 --> There is no data to update.
+#0 C:\xampp\htdocs\classroom\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\classroom\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\classroom\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\classroom\app\Controllers\SubjectController.php(38): CodeIgniter\Model->update('class_id', NULL)
+#4 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\SubjectController->add_subject()
+#5 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubjectController))
+#6 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 01:38:44 --> There is no data to update.
+#0 C:\xampp\htdocs\classroom\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\classroom\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\classroom\app\Controllers\SubjectController.php(44): CodeIgniter\Model->update('16', Array)
+#3 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\SubjectController->add_subject()
+#4 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubjectController))
+#5 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 01:38:49 --> There is no data to update.
+#0 C:\xampp\htdocs\classroom\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\classroom\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\classroom\app\Controllers\SubjectController.php(44): CodeIgniter\Model->update('16', Array)
+#3 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\SubjectController->add_subject()
+#4 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubjectController))
+#5 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 02:15:02 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\classroom\app\Controllers\AssignmentController.php on line 160
+#0 C:\xampp\htdocs\classroom\app\Controllers\AssignmentController.php(160): view('student_assignm...', NULL)
+#1 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\AssignmentController->view_assignments()
+#2 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignmentController))
+#3 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 02:17:44 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\classroom\app\Controllers\AssignmentController.php on line 160
+#0 C:\xampp\htdocs\classroom\app\Controllers\AssignmentController.php(160): view('student_assignm...', NULL)
+#1 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\AssignmentController->view_assignments()
+#2 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignmentController))
+#3 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 02:23:25 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\classroom\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\classroom\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\classroom\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\classroom\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 02:44:11 --> Class 'App\Controllers\AssignmentUploadModel' not found
+#0 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\AssignmentController->view_upload_assignment()
+#1 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignmentController))
+#2 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-31 03:23:46 --> Unknown column 'teacher_id' in 'where clause'
+CRITICAL - 2022-05-31 03:43:46 --> File not found: uploads/notices/ 
+#0 C:\xampp\htdocs\classroom\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('uploads/notices...')
+#1 C:\xampp\htdocs\classroom\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('uploads/notices...', true)
+#2 C:\xampp\htdocs\classroom\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('uploads/notices...')
+#3 C:\xampp\htdocs\classroom\app\Controllers\NoticeController.php(89): CodeIgniter\HTTP\Response->download(' ', NULL)
+#4 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\NoticeController->download_notice('13')
+#5 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticeController))
+#6 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-31 04:13:13 --> Unknown column 'teacher_id' in 'where clause'
+ERROR - 2022-05-31 04:22:37 --> Unknown column 'teacher_id' in 'where clause'
+ERROR - 2022-05-31 04:23:08 --> Unknown column 'teacher_id' in 'where clause'
+ERROR - 2022-05-31 04:25:15 --> Unknown column 'teacher_id' in 'where clause'
+ERROR - 2022-05-31 04:25:27 --> Unknown column 'teacher_id' in 'where clause'
+ERROR - 2022-05-31 04:27:04 --> Unknown column 'teacher_id' in 'where clause'
+CRITICAL - 2022-05-31 05:05:43 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\classroom\app\Controllers\NoticeController.php on line 111
+#0 C:\xampp\htdocs\classroom\app\Controllers\NoticeController.php(111): view('teacher_notice/...', NULL)
+#1 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\NoticeController->teacher_view_add_notice()
+#2 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoticeController))
+#3 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-31 05:32:02 --> Column 'classwork_file' cannot be null
+ERROR - 2022-05-31 05:33:12 --> Column 'admin_id' cannot be null
+ERROR - 2022-05-31 05:43:19 --> Column 'classwork_file' cannot be null
+ERROR - 2022-05-31 05:43:37 --> Column 'classwork_file' cannot be null

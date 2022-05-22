@@ -1,0 +1,46 @@
+CRITICAL - 2022-05-29 12:22:12 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\StudentController->view_add_student()
+#1 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 12:22:24 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\StudentController->view_add_student()
+#1 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#2 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 16:52:34 --> Invalid file: manage_notice.php
+#0 C:\xampp\htdocs\classroom\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('manage_notice.p...')
+#1 C:\xampp\htdocs\classroom\system\Common.php(1089): CodeIgniter\View\View->render('manage_notice', Array, true)
+#2 C:\xampp\htdocs\classroom\app\Views\admin_dashboard.php(101): view('manage_notice')
+#3 C:\xampp\htdocs\classroom\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\classroom\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\classroom\system\Common.php(1089): CodeIgniter\View\View->render('admin_dashboard', Array, true)
+#6 C:\xampp\htdocs\classroom\app\Controllers\AdminController.php(27): view('admin_dashboard', Array)
+#7 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\AdminController->index()
+#8 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-29 16:52:43 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\classroom\app\Views\notice\manage_notice.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\classroom\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\classroom\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\classroom\system\Common.php(1089): CodeIgniter\View\View->render('notice/manage_n...', Array, true)
+#4 C:\xampp\htdocs\classroom\app\Views\admin_dashboard.php(101): view('notice/manage_n...')
+#5 C:\xampp\htdocs\classroom\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\classroom\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\classroom\system\Common.php(1089): CodeIgniter\View\View->render('admin_dashboard', Array, true)
+#8 C:\xampp\htdocs\classroom\app\Controllers\AdminController.php(27): view('admin_dashboard', Array)
+#9 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\AdminController->index()
+#10 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#11 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-29 16:54:13 --> Class 'App\Controllers\NoticeModel' not found
+#0 C:\xampp\htdocs\classroom\system\CodeIgniter.php(832): App\Controllers\AdminController->index()
+#1 C:\xampp\htdocs\classroom\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\classroom\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\classroom\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
